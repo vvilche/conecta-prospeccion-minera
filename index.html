@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prospección Minera — Cobre Chile | CONECTA</title>
+<style>
+  :root {
+    --bg: #f8fafc; --ink: #071324; --accent: #2563eb;
+    --accent-soft: #dbeafe; --accent-softer: #eff6ff;
+    --green: #059669; --green-soft: #d1fae5;
+    --amber: #d97706; --amber-soft: #fef3c7;
+    --muted: #64748b; --border: #e2e8f0; --radius-lg: 20px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 40px 24px 80px; }
+  .kicker { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); background: var(--accent-softer); padding: 6px 14px; border-radius: 100px; }
+  h1 { font-size: 32px; font-weight: 700; margin-top: 14px; letter-spacing: -.02em; }
+  .sub { color: var(--muted); font-size: 15px; margin-top: 6px; max-width: 680px; }
+  .legend { display: flex; gap: 12px; margin: 24px 0 16px; flex-wrap: wrap; }
+  .legend span { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; color: var(--muted); background: #fff; border: 1px solid var(--border); padding: 8px 14px; border-radius: 100px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot.bf { background: var(--amber); } .dot.gf { background: var(--green); }
+  .section-title { font-size: 19px; font-weight: 700; margin: 30px 0 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 14px; }
+  .card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 20px 20px 16px; box-shadow: 0 1px 2px rgba(7,19,36,.04); display: flex; flex-direction: column; }
+  .card.bf { border-top: 3px solid var(--amber); } .card.gf { border-top: 3px solid var(--green); }
+  .card-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+  .card h3 { font-size: 17px; font-weight: 700; }
+  .badge { font-size: 11px; font-weight: 700; letter-spacing: .04em; padding: 3px 10px; border-radius: 100px; white-space: nowrap; }
+  .badge.bf { background: var(--amber-soft); color: var(--amber); } .badge.gf { background: var(--green-soft); color: var(--green); }
+  .card .region { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .meta { font-size: 13px; margin-bottom: 10px; } .meta div { margin-bottom: 3px; } .meta b { color: var(--ink); }
+  .ing { font-size: 12px; color: var(--accent); font-weight: 600; margin-bottom: 10px; }
+
+  .contact { border-top: 1px solid var(--border); padding-top: 12px; font-size: 13px; }
+  .contact .ct { font-weight: 700; color: var(--accent); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  .contact .line { margin-bottom: 2px; }
+  .contact a.lk { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent-soft); }
+  .contact .src { font-size: 11px; color: var(--muted); }
+  .contact .directo { font-size: 12px; color: var(--green); font-weight: 600; margin-top: 6px; }
+
+  .outreach { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 12px; }
+  .outreach .oh { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+  .outreach .target { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .msg-text { background: var(--accent-softer); border: 1px solid var(--accent-soft); border-radius: 12px; padding: 10px 12px; font-size: 12px; white-space: pre-wrap; margin-bottom: 8px; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 8px 14px; border-radius: 100px; cursor: pointer; border: none; text-decoration: none; }
+  .btn.copy { background: var(--accent); color: #fff; }
+  .btn.copy:hover { background: #1d4ed8; }
+  .btn.lk { background: #fff; color: var(--accent); border: 1px solid var(--accent); }
+  .btn.lk:hover { background: var(--accent-softer); }
+  .btn.copied { background: var(--green); color: #fff; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="kicker">Inteligencia comercial · Minería</span>
+    <h1>Prospección Minera — Proyectos de Cobre en Chile</h1>
+    <p class="sub">Brownfield y greenfield 2025-2029. Cada tarjeta trae: datos del proyecto, ingeniería a cargo, dirección + cargos técnicos, teléfono/correo, y el mensaje de LinkedIn listo para copiar.</p>
+  </header>
+
+  <div class="legend">
+    <span><i class="dot bf"></i>Brownfield — ampliación</span>
+    <span><i class="dot gf"></i>Greenfield — proyecto nuevo</span>
+  </div>
+
+  <!-- BROwNFIELD -->
+  <div class="section-title">Brownfield — ampliaciones en operación</div>
+  <div class="grid" id="grid-bf"></div>
+
+  <!-- GREENFIELD -->
+  <div class="section-title">Greenfield — proyectos nuevos</div>
+  <div class="grid" id="grid-gf"></div>
+
+  <footer>CONECTA Ingeniería · Prospección minera cobre Chile · agosto 2026</footer>
+</div>
+
+<script>
+const PROYECTOS = [
+  // BROwNFIELD
+  {tipo:"bf", nombre:"Las Cenizas", region:"Valparaíso / Antofagasta",
+   meta:[["Producción","47.000 t Cu/año → meta 65.000 t"],["Proceso","Flotación + Lixiviación SX-EW"],["Ventana","Ampliación Las Luces y Raimundo Langlois (2025-2028)"]],
+   ing:"Ingeniería: sin EPC adjudicado (en estudio)",
+   direccion:[["Cristian Argandoña","Gerente General","https://www.linkedin.com/search/results/people/?keywords=Cristian%20Argando%C3%B1a%20Las%20Cenizas"],["René Fonseca","Gerente Operaciones Corp.","https://www.linkedin.com/search/results/people/?keywords=Ren%C3%A9%20Fonseca%20Las%20Cenizas"]],
+   tecnicos:[["Francisco Calaf","Gerente de Proyectos","https://cl.linkedin.com/in/francisco-calaf-01b23474"],["Carlos Delpiano","Gerente de Mantenimiento","https://www.linkedin.com/search/results/people/?keywords=Carlos%20Delpiano%20Las%20Cenizas"],["Cristian Rojas","Supervisor Eléctrico","https://cl.linkedin.com/in/cristian-andr%C3%A9s-rojas-vega-8a2b1682"]],
+   src:"Grupo Minero Las Cenizas", directo:"+56 2 2368 8300 · contacto@cenizas.cl",
+   out_nombre:"Francisco Calaf", out_cargo:"Gerente de Proyectos", out_faena:"su ampliación Las Luces / Raimundo Langlois", out_lk:"https://cl.linkedin.com/in/francisco-calaf-01b23474"},
+
+  {tipo:"bf", nombre:"Pampa Camarones", region:"Arica y Parinacota",
+   meta:[["Producción","8.400 t Cu/año → +170.000 t Cu eq. (2027)"],["Proceso","Lixiviación SX-EW, 100% agua de mar"],["Ventana","2ª planta concentradora 2027"]],
+   ing:"Ingeniería: ODR Ingeniería y Montajes (estructural)",
+   direccion:[["Rodrigo Ramírez Zamora","Gerente General","https://www.linkedin.com/search/results/people/?keywords=Rodrigo%20Ram%C3%ADrez%20Zamora%20Pampa%20Camarones"]],
+   tecnicos:[["Rodrigo Garcés","Superintendente de Plantas","https://www.linkedin.com/search/results/people/?keywords=Rodrigo%20Garc%C3%A9s%20Pampa%20Camarones"],["Leandro Silva","Superintendente de Minería","https://www.linkedin.com/search/results/people/?keywords=Leandro%20Silva%20Pampa%20Camarones"],["Claudio Rivera","Jefe de Metalurgia","https://cl.linkedin.com/in/claudio-rivera-mar%C3%ADn-64344662"]],
+   src:"Minería Activa SpA", directo:"+56 2 2964 2000 · info@pampacamarones.cl",
+   out_nombre:"Rodrigo Garcés", out_cargo:"Superintendente de Plantas", out_faena:"su 2ª planta concentradora", out_lk:"https://www.linkedin.com/search/results/people/?keywords=Rodrigo%20Garc%C3%A9s%20Pampa%20Camarones"},
+
+  {tipo:"bf", nombre:"San Gerónimo", region:"Coquimbo",
+   meta:[["Producción","19-20.000 t Cu eq./año → meta duplicar"],["Proceso","Flotación + químico + piloto Ceibo"],["Ventana","Piloto Ceibo y expansión distrital 2025-2026"]],
+   ing:"Ingeniería: sin definir",
+   direccion:[["Patricio Rendic","Gerente General","https://www.linkedin.com/search/results/people/?keywords=Patricio%20Rendic%20San%20Ger%C3%B3nimo"],["Remigio Núñez","Gerente Oper. Mina","https://www.linkedin.com/search/results/people/?keywords=Remigio%20N%C3%BA%C3%B1ez%20San%20Ger%C3%B3nimo"]],
+   tecnicos:[["Jorge Vildósola","Jefe de Ingeniería","https://cl.linkedin.com/in/jorge-vild%C3%B3sola-c-96857841"],["Nelson Herrera","Jefe Mantención y Energía","https://cl.linkedin.com/in/nelsonherrerac"],["Thomas Piñones","Jefe Mantenimiento Planta","https://cl.linkedin.com/in/thomas-pi%C3%B1ones-60778b353"]],
+   src:"Familia Rendic", directo:"+56 51 257 1100 · jcsaez@cmsg.cl",
+   out_nombre:"Jorge Vildósola", out_cargo:"Jefe de Ingeniería", out_faena:"su expansión distrital / piloto Ceibo", out_lk:"https://cl.linkedin.com/in/jorge-vild%C3%B3sola-c-96857841"},
+
+  {tipo:"bf", nombre:"Tres Valles", region:"Coquimbo",
+   meta:[["Producción","5.000 t/año real → meta 13-15.000 t"],["Proceso","Lixiviación SX-EW"],["Ventana","Relanzamiento post cambio de controlador (2025)"]],
+   ing:"Ingeniería: Wood (report 2021)",
+   direccion:[["Sebastián Cortés","Gerente General","https://www.linkedin.com/search/results/people/?keywords=Sebasti%C3%A1n%20Cort%C3%A9s%20Minera%20Tres%20Valles"],["Mario Valdés","Gerente de Operaciones","https://www.linkedin.com/search/results/people/?keywords=Mario%20Vald%C3%A9s%20Minera%20Tres%20Valles"]],
+   tecnicos:[["Ricardo Vergara","Gerente de Planta","https://cl.linkedin.com/in/ricardo-vergara-lima-84168611a"],["Robinson Lanas","Ingeniero Sistema Control","https://cl.linkedin.com/in/robinson-lanas-oyarce-167032151"],["Evelio Carvajal","Líder Eléctrico e I&C Planta","https://www.linkedin.com/search/results/people/?keywords=Evelio%20Carvajal%20Tres%20Valles"]],
+   src:"Grupo Vecchiola", directo:"+56 53 244 9900 · sebastian.cortes@mineratresvalles.cl",
+   out_nombre:"Evelio Carvajal", out_cargo:"Líder Eléctrico e I&C Planta", out_faena:"su relanzamiento de planta", out_lk:"https://www.linkedin.com/search/results/people/?keywords=Evelio%20Carvajal%20Tres%20Valles"},
+
+  {tipo:"bf", nombre:"Pucobre", region:"Atacama",
+   meta:[["Producción","41.600 t Cu/año (2025)"],["Proceso","Flotación (San José) + SX-EW (Biocobre)"],["Ventana","Puente a El Espino/Tovaku"]],
+   ing:"Ingeniería: sin definir",
+   direccion:[["Sebastián Ríos Rivas","Gerente General","https://www.linkedin.com/search/results/people/?keywords=Sebasti%C3%A1n%20R%C3%ADos%20Pucobre"]],
+   tecnicos:[["Ordelis Lameda","Jefe de Automatización y Control","https://cl.linkedin.com/in/ordelis-lameda-916679a5"],["Alex Araya","Superint. Ingeniería de Minas","https://cl.linkedin.com/in/alex-araya-jofre-20946956"],["Iván Contreras","Jefe Procesos Planta San José","https://cl.linkedin.com/in/ivan-contreras-5a707038"]],
+   src:"Hurtado Vicuña + Fernández León", directo:"+56 52 220 5800 · info@pucobre.cl",
+   out_nombre:"Ordelis Lameda", out_cargo:"Jefe de Automatización y Control", out_faena:"su faena San José / Biocobre", out_lk:"https://cl.linkedin.com/in/ordelis-lameda-916679a5"},
+
+  {tipo:"bf", nombre:"Altos de Punitaqui", region:"Coquimbo",
+   meta:[["Producción","Sin datos públicos recientes"],["Proceso","Flotación Cu-Au-Ag"],["Ventana","Prospección directa"]],
+   ing:"Ingeniería: sin definir",
+   direccion:[["Jaime Guzmán","Gerente General","https://cl.linkedin.com/in/jaime-guzman-a1a389177"]],
+   tecnicos:[["Mauricio Barrientos","Ingeniero Automatización","https://cl.linkedin.com/in/mauricio-barrientos-1b5a0561"],["Luis Olivares","Jefe Operación Mantención","https://cl.linkedin.com/in/luisolivaresgarcia"],["Manuel Callejas","Supervisor Mantención","https://cl.linkedin.com/in/manuel-antonio-callejas-diaz-18027964"]],
+   src:"Battery Mineral Resources (BMR SpA)", directo:"+56 53 242 4900 · recepcion@altospunitaqui.cl",
+   out_nombre:"Mauricio Barrientos", out_cargo:"Ingeniero en Automatización", out_faena:"su planta de flotación", out_lk:"https://cl.linkedin.com/in/mauricio-barrientos-1b5a0561"},
+
+  // GREENFIELD
+  {tipo:"gf", nombre:"Arqueros", region:"Coquimbo",
+   meta:[["Escala","Puesta en marcha 2026 · US$400 M"],["Proceso","Concentradora"],["Ventana","Comisionamiento 2026"]],
+   ing:"Ingeniería: Besalco (EPC) + REICH-JRI (eléctrico)",
+   direccion:[["Omar Fernández","Gerente General Proyecto","https://cl.linkedin.com/in/omar-fern%C3%A1ndez-136670136"]],
+   tecnicos:[["Sergio Mora","Gerente de Proyecto Planta","https://cl.linkedin.com/in/sergiomorac"],["Miguel Bahamondes","Gerente Proyectos EPC","https://cl.linkedin.com/in/miguel-javier-bahamondes-b58b7931"]],
+   src:"Nittetsu Mining 80% / Talcuna 20%", directo:"+56 51 242 7000 · informacion@mineraarqueros.cl",
+   out_nombre:"Sergio Mora", out_cargo:"Gerente de Proyecto Planta", out_faena:"su proyecto de concentradora", out_lk:"https://cl.linkedin.com/in/sergiomorac"},
+
+  {tipo:"gf", nombre:"El Espino", region:"Coquimbo",
+   meta:[["Escala","91% avance · 26.000 t Cu conc./año"],["Proceso","Concentradora Cu-Au"],["Ventana","Comisionamiento 2026-2027"]],
+   ing:"Ingeniería: FDA Ingenieros (detalle)",
+   direccion:[["Pablo Tapia","Gerente de Operaciones","https://www.linkedin.com/search/results/people/?keywords=Pablo%20Tapia%20El%20Espino%20Pucobre"],["Juan Pablo Saavedra","Gerente Proyectos Mineros","https://www.linkedin.com/search/results/people/?keywords=Juan%20Pablo%20Saavedra%20Pucobre"]],
+   tecnicos:[["Por la ingeniería","FDA Ingenieros",""]],
+   src:"Pucobre", directo:"+56 52 220 5809 · david.sanz@pucobre.cl",
+   out_nombre:"Juan Pablo Saavedra", out_cargo:"Gerente de Proyectos Mineros", out_faena:"el proyecto El Espino", out_lk:"https://www.linkedin.com/search/results/people/?keywords=Juan%20Pablo%20Saavedra%20Pucobre"},
+
+  {tipo:"gf", nombre:"Tovaku", region:"Antofagasta",
+   meta:[["Escala","US$870 M · EIA en trámite"],["Proceso","SX-EW (cátodos)"],["Ventana","Seguimiento 2026-2028"]],
+   ing:"Ingeniería: Ausenco (estudios)",
+   direccion:[["JV","Pucobre 60% / Codelco 40%",""]],
+   tecnicos:[["Leyla Hawas","Ingeniera Control de Proyectos","https://cl.linkedin.com/in/leyla-hawas-manzano-73094498"],["Álvaro Elgueta","Ingeniero Control de Proyecto","https://cl.linkedin.com/in/alvaro-elgueta-d%C3%ADaz-7225a119"],["Tiburcio Venegas","Ingeniero Proyecto Mina","https://cl.linkedin.com/in/tiburcio-antonio-venegas-padilla-b9559a27"]],
+   src:"Etapa: factibilidad (jun 2025)", directo:"+56 52 220 5800 · info@pucobre.cl",
+   out_nombre:"Leyla Hawas", out_cargo:"Ingeniera Control de Proyectos", out_faena:"el proyecto Tovaku", out_lk:"https://cl.linkedin.com/in/leyla-hawas-manzano-73094498"},
+
+  {tipo:"gf", nombre:"Costa Fuego", region:"Atacama",
+   meta:[["Escala","US$1.270 M · 100.000 t Cu/año"],["Proceso","Concentradora + desaladora"],["Ventana","Posicionamiento ante ingeniería 2026"]],
+   ing:"Ingeniería: Wood Australia + GMT (PFS)",
+   direccion:[["Christian Easterday","CEO Hot Chili","https://www.linkedin.com/search/results/people/?keywords=Christian%20Easterday%20Hot%20Chili"]],
+   tecnicos:[["Alberto Cerda","Project Director","https://www.linkedin.com/search/results/people/?keywords=Alberto%20Cerda%20Costa%20Fuego%20Hot%20Chili"],["José Ignacio Silva","Country Manager Chile","https://www.linkedin.com/search/results/people/?keywords=Jos%C3%A9%20Ignacio%20Silva%20Hot%20Chili"]],
+   src:"Hot Chili Limited", directo:"+56 2 2437 5600 · admin@hotchili.net.au",
+   out_nombre:"Alberto Cerda", out_cargo:"Project Director", out_faena:"el proyecto Costa Fuego", out_lk:"https://www.linkedin.com/search/results/people/?keywords=Alberto%20Cerda%20Costa%20Fuego%20Hot%20Chili"},
+
+  {tipo:"gf", nombre:"Vizcachitas", region:"Valparaíso",
+   meta:[["Escala","US$2.400-2.800 M · 180.000 t Cu/año"],["Proceso","Concentradora, relave filtrado"],["Ventana","Construcción 2027-2029"]],
+   ing:"Ingeniería: Tetra Tech Sudamérica (PFS)",
+   direccion:[["Antony Amberg","CEO interino","https://www.linkedin.com/search/results/people/?keywords=Antony%20Amberg%20Los%20Andes%20Copper"]],
+   tecnicos:[["Christian Gaete","Gerente de Proyecto","https://cl.linkedin.com/in/christian-gaete-aguilera-2b95b57b"]],
+   src:"Los Andes Copper (dueña 100%)", directo:"+56 2 2954 0450 · info@losandescopper.com",
+   out_nombre:"Christian Gaete", out_cargo:"Gerente de Proyecto", out_faena:"el proyecto Vizcachitas", out_lk:"https://cl.linkedin.com/in/christian-gaete-aguilera-2b95b57b"},
+];
+
+function conexion(nombre, faena) {
+  return `Hola ${nombre.split(' ')[0]}, soy Víctor Vilche de CONECTA Ingeniería. Representamos SUPCON en Chile (DCS, instrumentación y válvulas) e integramos SCADA, PMU y RTU con protecciones IEC 61850 para minería. Estamos siguiendo ${faena} y quería conectar para ver si su plan de automatización calza con lo que hacemos. Saludos.`;
+}
+function seguimiento(nombre, faena) {
+  return `Hola ${nombre.split(' ')[0]}, gracias por conectar.
+
+Soy Víctor Vilche, de CONECTA Ingeniería. Representamos SUPCON en Chile — DCS ECS-700, instrumentación, válvulas y sistemas de seguridad — y también integramos SCADA, PMU y RTU con protecciones IEC 61850.
+
+Le escribo porque estamos siguiendo ${faena} y quería consultar si están en alguna etapa de ingeniería o modernización de control donde les haga sentido conversar.
+
+Si en este momento no aplica, quedo atento para más adelante.
+
+Saludos,
+Víctor Vilche
+CONECTA Ingeniería · Representante SUPCON en Chile`;
+}
+
+function renderContacto(personas) {
+  return personas.map(p => {
+    const [nombre, cargo, lk] = p;
+    if (!nombre) return '';
+    const nombreHtml = lk ? `<a class="lk" href="${lk}" target="_blank">${nombre}</a>` : nombre;
+    return `<div class="line">${nombreHtml} — ${cargo}</div>`;
+  }).join('');
+}
+
+function renderCard(p, idx) {
+  const msg1 = conexion(p.out_nombre, p.out_faena);
+  const msg2 = seguimiento(p.out_nombre, p.out_faena);
+  return `
+  <div class="card ${p.tipo}">
+    <div class="card-head"><h3>${p.nombre}</h3><span class="badge ${p.tipo}">${p.tipo === 'bf' ? 'Brownfield' : 'Greenfield'}</span></div>
+    <div class="region">${p.region}</div>
+    <div class="meta">${p.meta.map(m => `<div><b>${m[0]}:</b> ${m[1]}</div>`).join('')}</div>
+    <div class="ing">${p.ing}</div>
+    <div class="contact">
+      <div class="ct">Dirección</div>
+      ${renderContacto(p.direccion)}
+      <div class="ct" style="margin-top:8px">Técnicos</div>
+      ${renderContacto(p.tecnicos)}
+      <div class="src">${p.src}</div>
+      <div class="directo">${p.directo}</div>
+    </div>
+    <div class="outreach">
+      <div class="oh">Outreach LinkedIn → ${p.out_nombre} (${p.out_cargo})</div>
+      <div class="msg-text" id="m1-${idx}">${msg1}</div>
+      <div class="msg-text" id="m2-${idx}">${msg2}</div>
+      <div class="actions">
+        <button class="btn copy" onclick="copiar(${idx},1,this)">Copiar conexión</button>
+        <button class="btn copy" onclick="copiar(${idx},2,this)">Copiar seguimiento</button>
+        <a class="btn lk" href="${p.out_lk}" target="_blank">Ver perfil ↗</a>
+      </div>
+    </div>
+  </div>`;
+}
+
+let idx = 0;
+const gridBf = document.getElementById('grid-bf');
+const gridGf = document.getElementById('grid-gf');
+PROYECTOS.forEach(p => {
+  const card = renderCard(p, idx);
+  if (p.tipo === 'bf') gridBf.innerHTML += card; else gridGf.innerHTML += card;
+  idx++;
+});
+
+function copiar(i, n, btn) {
+  const texto = document.getElementById('m' + n + '-' + i).innerText;
+  navigator.clipboard.writeText(texto).then(() => {
+    const orig = btn.innerText;
+    btn.innerText = '¡Copiado!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.innerText = orig; btn.classList.remove('copied'); }, 1500);
+  });
+}
+</script>
+</body>
+</html>

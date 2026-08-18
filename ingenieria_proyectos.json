@@ -1,0 +1,80 @@
+[
+ {
+  "proyecto": "Minera Las Cenizas (ampliación Las Luces y Raimundo Langlois)",
+  "respuesta": "No encontré fuentes confiables que identifiquen una empresa específica (EPC, EPCM o ingeniería básica/detalle) adjudicada para el proyecto “Minera Las Cenizas – Ampliación Las Luces y Raimundo Langlois”. ([cenizas.cl](https://cenizas.cl/?utm_source=openai))\n\nEl proyecto se encuentra en etapa de estudio y recolección de antecedentes, desarrollándose ingenierías. ([cenizas.cl](https://www.cenizas.cl/wp-content/uploads/30-revista30.pdf?utm_source=openai))  \n\nSi quieres, puedo revisar licitaciones recientes para ver si ya hay alguna adjudicación.",
+  "fuentes": [
+   "https://cenizas.cl/?utm_source=openai",
+   "https://www.cenizas.cl/wp-content/uploads/30-revista30.pdf?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Pampa Camarones (2ª planta concentradora)",
+  "respuesta": "No encontré fuentes confiables que indiquen cuál empresa de ingeniería (EPC, EPCM o similar) ha sido adjudicada para la ingeniería básica, de detalle o construcción de la “segunda planta concentradora” de Pampa Camarones. Los documentos oficiales revisados solo detallan actividad de ingeniería estructural realizada por ODR Ingeniería y Montajes Ltda. para estructuras metálicas, galpones y montaje de áreas específicas, pero no se identifica un contratista EPC o EPCM global para toda la planta concentradora. ([odringenieria.cl](https://www.odringenieria.cl/project/minera-pampa-camarones/?utm_source=openai))  \n\nSi deseas, puedo intentar una búsqueda más profunda en registros públicos actualizados para ver si hay una adjudicación reciente.",
+  "fuentes": [
+   "https://www.odringenieria.cl/project/minera-pampa-camarones/?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Minera San Gerónimo (piloto Ceibo, expansión distrital)",
+  "respuesta": "No encontré fuentes confiables que identifiquen a la empresa de ingeniería exacta (EPC, EPCM, ingeniería básica o detalle) adjudicada para el proyecto “expansión distrital / Piloto Ceibo” de la Compañía Minera San Gerónimo en Coquimbo, Chile. ([portalminero.com](https://www.portalminero.com/index.php/compania-minera-san-geronimo-avanza-en-la-consolidacion-de-su-distrito-minero-en-la-region-de-coquimbo?utm_source=openai))\n\nSi quieres, puedo intentar revisar licitaciones recientes o documentos técnicos para ver si hay alguna novedad al respecto.",
+  "fuentes": [
+   "https://www.portalminero.com/index.php/compania-minera-san-geronimo-avanza-en-la-consolidacion-de-su-distrito-minero-en-la-region-de-coquimbo?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Minera Tres Valles (relanzamiento)",
+  "respuesta": "No encontré evidencia pública reciente que identifique una empresa adjudicada como EPC, EPCM o de ingeniería básica/detalle específica para el relanzamiento del proyecto Minera Tres Valles en Salamanca. El informe técnico de 2021 fue preparado por Wood (anteriormente Amec Foster Wheeler), quien actuó como consultora para el estudio técnico (“technical report”) ([threevalleycopper.com](https://threevalleycopper.com/media/5prjf0tc/mtv-technical-report-2021.pdf?utm_source=openai)). No hay noticias confirmadas de licitación adjudicada para ingeniería básica o EPC desde ese estudio.",
+  "fuentes": [
+   "https://threevalleycopper.com/media/5prjf0tc/mtv-technical-report-2021.pdf?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Pucobre (San José y Biocobre)",
+  "respuesta": "No encontré hasta ahora información verificable que identifique una empresa de ingeniería específica (EPC, EPCM, ingeniería básica o de detalle) adjudicada para los proyectos “San José” y “Biocobre” de Pucobre en Atacama. No aparece ningún anuncio público que confirme quién está a cargo de la ingeniería o construcción.  \n\nSi deseas, puedo revisar licitaciones recientes para ver si está abierta la adjudicación y quiénes han participado.",
+  "fuentes": []
+ },
+ {
+  "proyecto": "Minera Altos de Punitaqui",
+  "respuesta": "No encontré fuentes confiables que indiquen qué empresa de ingeniería (EPC, EPCM o ingeniería básica/detalle) ha sido contratada para el proyecto “Minera Altos de Punitaqui” actualmente. No hay constancia pública de adjudicación para ingeniería ni EPC/EPCM en los documentos revisados hasta agosto de 2026.  \n\nSi deseas, puedo investigar en bases de licitaciones oficiales (ChileCompra, SEC, etc.) para ver si hay procesos abiertos recientes al respecto. ¿Te interesa eso?",
+  "fuentes": []
+ },
+ {
+  "proyecto": "Proyecto Arqueros",
+  "respuesta": "Hasta donde he podido verificar, no hay evidencia pública de que una firma internacional como Bechtel, Hatch, Fluor u otra haya sido adjudicada como EPC o EPCM general para el Proyecto Arqueros (Nittetsu, Coquimbo).  \n\nLo que sí se sabe:  \n- La empresa **Besalco** tiene un contrato EPC de montaje y construcción de la planta concentradora y de espesado, incluyendo ingeniería de detalle, compra de equipos secundarios, montaje y precomisionamiento, con inicio en enero de 2024 y término estimado para agosto de 2026. ([besalcomontajes.cl](https://www.besalcomontajes.cl/proyectos/epc-montaje-y-construccion-planta-concentradora-y-de-espesado-proyecto-arqueros.html?utm_source=openai))  \n- La firma **REICH-JRI Ingeniería** participa en la ingeniería básica de la línea eléctrica 110 kV y subestaciones 110/23 kV para el Proyecto Arqueros. ([reichingenieria.cl](https://www.reichingenieria.cl/mineria/?utm_source=openai))  \n\nSi necesitas, puedo buscar si existe una licitación general adjudicada para el EPCM o ingeniería básica completa.",
+  "fuentes": [
+   "https://www.besalcomontajes.cl/proyectos/epc-montaje-y-construccion-planta-concentradora-y-de-espesado-proyecto-arqueros.html?utm_source=openai",
+   "https://www.reichingenieria.cl/mineria/?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Proyecto El Espino",
+  "respuesta": "La empresa de ingeniería encar­gada de la Ingeniería de Detalle del Proyecto El Espino es **FDA Ingenieros**, responsable del diseño de la planta concentradora (áreas seca y húmeda), sistema de impulsión de agua de mar, depósito de relaves espesado y la infraestructura asociada, además de integración de vendors y apoyo a la construcción ([fda.cl](https://www.fda.cl/_files/ugd/8956d4_14ce31e833d54052a29f974da4b4294c.pdf?utm_source=openai)).  \n\nNo se encontró evidencia pública de que FDA tenga adjudicado un contrato EPC o EPCM para todo el proyecto. El Proyecto aún está en etapa de construcción, con ingeniería de factibilidad terminada e ingeniería de detalles avanzada, pero sin EPC global confirmado ([pucobre.cl](https://www.pucobre.cl/proyectos/?utm_source=openai)).",
+  "fuentes": [
+   "https://www.fda.cl/_files/ugd/8956d4_14ce31e833d54052a29f974da4b4294c.pdf?utm_source=openai",
+   "https://www.pucobre.cl/proyectos/?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Proyecto Tovaku",
+  "respuesta": "No encontré evidencia pública de que se haya adjudicado el contrato de ingeniería básica, ingeniería de detalle, EPC o EPCM para el Proyecto Tovaku. ([proyectanegocios.cl](https://proyectanegocios.cl/ver-proyecto.php?id=1391&utm_source=openai))\n\nSin embargo, se sabe que:  \n- El proyecto tiene el estudio de factibilidad ya terminado. ([terram.cl](https://www.terram.cl/tovaku-el-proyecto-minero-que-codelco-y-pucobre-desarrollan-a-50-km-de-tocopilla/?utm_source=openai))  \n- Se ha realizado un estudio de amenaza sísmica contratado por Ausenco, lo que indica que Ausenco ha realizado estudios especializados para detalle de ingeniería estructural. ([tna.global](https://tna.global/project/estudio-de-amenaza-sismica-proyecto-tovaku-pucobre-ausenco/?utm_source=openai))",
+  "fuentes": [
+   "https://proyectanegocios.cl/ver-proyecto.php?id=1391&utm_source=openai",
+   "https://www.terram.cl/tovaku-el-proyecto-minero-que-codelco-y-pucobre-desarrollan-a-50-km-de-tocopilla/?utm_source=openai",
+   "https://tna.global/project/estudio-de-amenaza-sismica-proyecto-tovaku-pucobre-ausenco/?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Proyecto Costa Fuego",
+  "respuesta": "No hay registro público de que se haya adjudicado aún un contrato como EPC, EPCM, ingeniería básica ni detallada para el Proyecto Costa Fuego de Hot Chili (Coastal Atacama, Chile). El Estudio de Prefactibilidad (PFS) ha sido preparado con la participación de Wood Australia Pty Ltd, GMT Servicios de Ingeniería, Process Mineral Consulting, ABGM Consulting y High River Services en distintas especialidades como metalurgia, ingeniería de costos, geotecnia y planificación minera. ([proyectmin.cl](https://www.proyectmin.cl/wp-content/uploads/2025/07/1.3-Hot-Chili-Jose-Ignacio-Silva-Costa-Fuego-Copper-Gold-Project.pdf?utm_source=openai))  \n\nSi quieres, puedo revisar si ha salido licitación reciente para el EPC/EPCM. ¿Quieres que lo haga?",
+  "fuentes": [
+   "https://www.proyectmin.cl/wp-content/uploads/2025/07/1.3-Hot-Chili-Jose-Ignacio-Silva-Costa-Fuego-Copper-Gold-Project.pdf?utm_source=openai"
+  ]
+ },
+ {
+  "proyecto": "Proyecto Vizcachitas",
+  "respuesta": "No encontré evidencia pública verificada de que se haya adjudicado un contrato de EPC, EPCM ni ingeniería básica o de detalle para el Proyecto Vizcachitas de Los Andes Copper hasta la fecha. El Estudio de Prefactibilidad (PFS, publicado en abril de 2023) fue preparado por **Tetra Tech Sudamérica S.A.**, pero esto corresponde a estudio técnico, no a un contrato de ingeniería/construcción (EPC/EPCM). ([minedocs.com](https://minedocs.com/25/Vizcachitas-PFS-02202023.pdf?utm_source=openai))\n\nSi deseas, puedo revisar fuentes adicionales recientes para ver si ya hubo adjudicación. ¿Te interesa que lo haga?",
+  "fuentes": [
+   "https://minedocs.com/25/Vizcachitas-PFS-02202023.pdf?utm_source=openai"
+  ]
+ }
+]
