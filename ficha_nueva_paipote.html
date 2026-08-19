@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nueva Paipote — Proyecto ENAMI | CONECTA</title>
+<style>
+  :root {
+    --bg: #f8fafc; --ink: #071324; --accent: #2563eb;
+    --accent-soft: #dbeafe; --accent-softer: #eff6ff;
+    --green: #059669; --green-soft: #d1fae5;
+    --amber: #d97706; --amber-soft: #fef3c7;
+    --muted: #64748b; --border: #e2e8f0; --radius-lg: 20px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 40px 24px 80px; }
+  .kicker { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); background: var(--accent-softer); padding: 6px 14px; border-radius: 100px; }
+  h1 { font-size: 30px; font-weight: 700; margin-top: 14px; letter-spacing: -.02em; }
+  .sub { color: var(--muted); font-size: 15px; margin-top: 6px; max-width: 680px; }
+
+  .section { margin-top: 30px; }
+  .section h2 { font-size: 19px; font-weight: 700; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent-soft); }
+
+  .card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 18px 20px; margin-bottom: 12px; box-shadow: 0 1px 2px rgba(7,19,36,.04); }
+  .card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+
+  .kv { font-size: 13.5px; }
+  .kv div { margin-bottom: 4px; }
+  .kv b { color: var(--ink); }
+
+  .fuente { font-size: 11.5px; color: var(--muted); margin-top: 2px; padding-left: 14px; }
+  .fuente a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  .fuente a:hover { text-decoration: underline; }
+  .fuente::before { content: "↳ "; color: var(--accent); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; background: #fff; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border); }
+  th { background: var(--accent-softer); color: var(--ink); font-weight: 700; text-align: left; padding: 10px 12px; font-size: 12px; }
+  td { padding: 10px 12px; border-top: 1px solid var(--border); vertical-align: top; }
+  .corr { font-family: 'IBM Plex Mono', monospace; color: var(--accent); font-weight: 600; white-space: nowrap; }
+
+  .oportunidad { border-left: 4px solid var(--amber); }
+  .oportunidad.abierta { border-left: 4px solid var(--green); }
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 100px; margin-right: 6px; }
+  .tag-amb { background: var(--amber-soft); color: var(--amber); }
+  .tag-verde { background: var(--green-soft); color: var(--green); }
+  .tag-azul { background: var(--accent-softer); color: var(--accent); }
+
+  .contacto { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 13.5px; }
+  .contacto .nombre { font-weight: 700; }
+  .rol { font-size: 12px; color: var(--muted); }
+
+  footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="kicker">Expediente de prospecto · Megaproyecto</span>
+    <h1>Nueva Paipote — Modernización Fundición Hernán Videla Lira (ENAMI)</h1>
+    <p class="sub">Megaproyecto de fundición y refinería de cobre en Copiapó. Ficha con cada dato citado a su fuente verificable.</p>
+  </header>
+
+  <!-- 1. PROYECTO -->
+  <div class="section">
+    <h2>1 · El proyecto</h2>
+    <div class="card">
+      <div class="kv">
+        <div><b>Alcance:</b> complejo metalúrgico integral — fundición de cobre + refinería electrolítica + planta de metales nobles (oro/plata) + captura de emisiones + agua desalada.</div>
+        <div class="fuente"><a href="https://www.enami.cl/Noticias/Pages/ENAMI-avanza-en-la-tramitaci%C3%B3n-ambiental-del-proyecto-de-modernizaci%C3%B3n-de-la-Fundici%C3%B3n-Hern%C3%A1n-Videla-Lira.aspx" target="_blank">enami.cl — tramitación ambiental FHVL</a></div>
+        <div><b>Inversión:</b> US$1.700 millones.</div>
+        <div class="fuente"><a href="https://www.enami.cl/Noticias/Pages/CON-CREACI%C3%93N-DE-FILIAL-Y-EVALUACI%C3%93N-DE-OFFTAKE-PARA-FINANCIAMIENTO%2C-ENAMI-AVANZA-EN-PROYECTO-DE-NUEVA-FUNDICI%C3%93N-EN-PAIPOTE.aspx" target="_blank">enami.cl — filial y offtake</a></div>
+        <div><b>Capacidad:</b> 850.000 t/año de concentrado · refinería 240.000 t/año de cátodos.</div>
+        <div class="fuente"><a href="https://www.enami.cl/Noticias/Pages/ENAMI-ingresa-adenda-final-del-proyecto-de-modernizaci%C3%B3n-de-la-Fundici%C3%B3n-Hern%C3%A1n-Videla-Lira.aspx" target="_blank">enami.cl — adenda final EIA</a></div>
+        <div><b>Vida útil:</b> 50 años. <b>Marco:</b> Estrategia Nacional de Fundiciones (FURE).</div>
+        <div class="fuente"><a href="https://www.enami.cl/Noticias/Pages/ENAMI-avanza-en-la-tramitaci%C3%B3n-ambiental-del-proyecto-de-modernizaci%C3%B3n-de-la-Fundici%C3%B3n-Hern%C3%A1n-Videla-Lira.aspx" target="_blank">enami.cl</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ESTADO -->
+  <div class="section">
+    <h2>2 · Estado actual y cronograma</h2>
+    <table>
+      <tr><th>Hito</th><th>Fecha</th></tr>
+      <tr><td>RCA aprobada por unanimidad (Atacama)</td><td>29 oct 2025</td></tr>
+      <tr><td>Filial Proyecta ENAMI SpA creada</td><td>2025</td></tr>
+      <tr><td>Bancos estructuradores (J.P. Morgan + Citi)</td><td>dic 2025</td></tr>
+      <tr><td>Inicio de obras (ajustado)</td><td>oct 2026</td></tr>
+      <tr><td>Entrada en operación (ajustado)</td><td>mar 2031</td></tr>
+    </table>
+    <div class="card" style="margin-top:12px">
+      <div class="kv">
+        <div><b>⚠ Retraso reciente:</b> construcción pasa de 33 a 52 meses, inicio se mueve feb→oct 2026, operación dic 2028→mar 2031, con US$65M extra en adecuaciones.</div>
+        <div class="fuente"><a href="https://actualidadjuridica.doe.cl/enami-propone-retrasar-en-mas-de-dos-anos-la-modernizacion-de-paipote-y-sumar-us65-millones-en-ajustes/" target="_blank">actualidadjuridica.doe.cl — retraso</a> · <a href="https://www.latercera.com/pulso/noticia/enami-planea-retrasar-modernizacion-de-la-fundicion-paipote-en-mas-de-dos-anos-e-invertir-us-65-millones-en-adecuaciones/" target="_blank">latercera.com</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. INGENIERÍA -->
+  <div class="section">
+    <h2>3 · Ingeniería a cargo</h2>
+    <table>
+      <tr><th>Empresa</th><th>Rol</th></tr>
+      <tr><td><b>ENFI</b> (China)</td><td>Ingeniería de factibilidad</td></tr>
+      <tr><td><b>JRI Ingeniería</b> (Chile)</td><td>Prefactibilidad Refinería + Metales Nobles + asesoría local (eléctrico/sismo)</td></tr>
+      <tr><td><b>Proyecta ENAMI SpA</b></td><td>Filial estatal: diseño, construcción y puesta en marcha</td></tr>
+      <tr><td><b>EPC / EPCM / instrumentación / SCADA-DCS</b></td><td><span class="tag tag-verde">NO ADJUDICADO AÚN</span></td></tr>
+    </table>
+    <div class="fuente" style="margin-top:8px"><a href="https://www.enami.cl/Noticias/Pages/VPE-de-ENAMI-se-re%C3%BAne-con-empresa-china-de-ingenier%C3%ADa-que-trabaja-en-proyecto-de-modernizaci%C3%B3n-de-Fundici%C3%B3n-Hern%C3%A1n-Videla-L.aspx" target="_blank">enami.cl — ENFI</a> · <a href="https://www.enami.cl/Noticias/Pages/Modernizaci%C3%B3n-FHVL-ENAMI-adjudica-Ingenier%C3%ADa-de-Prefactibilidad--.aspx" target="_blank">enami.cl — JRI</a> · <a href="https://aic.cl/wp-content/uploads/2024/09/AICNEWS-MAYO-2024-1_c.pdf" target="_blank">aic.cl — JRI+ENFI</a></div>
+  </div>
+
+  <!-- 4. CONTACTOS -->
+  <div class="section">
+    <h2>4 · Contactos</h2>
+    <div class="card">
+      <div class="contacto"><div><span class="nombre">Juan Carlos Sáez Zamorano</span><div class="rol">Vicepresidente Ejecutivo ENAMI (desde 30 mar 2026)</div></div></div>
+      <div class="fuente"><a href="https://www.minmineria.gob.cl/?noticia=gobierno-designa-a-juan-carlos-saez-como-nuevo-vicepresidente-ejecutivo-de-enami" target="_blank">minmineria.gob.cl — designación</a></div>
+      <div class="contacto" style="margin-top:10px"><div><span class="nombre">José Sanhueza Reyes</span><div class="rol">Gerente del Proyecto FHVL (desde jun 2024)</div></div></div>
+      <div class="fuente"><a href="https://www.enami.cl/Noticias/Pages/ENAMI-nombra-nuevo-gerente-del-proyecto-de-modernizaci%C3%B3n-de-la-Fundici%C3%B3n-Hern%C3%A1n-Videla-Lira-para-fortalecer-el-%C3%A1rea.aspx" target="_blank">enami.cl — nombramiento gerente proyecto</a></div>
+      <div class="contacto" style="margin-top:10px"><div><span class="nombre">Hernán Santander González</span><div class="rol">Ex gerente proyecto / gerente FHVL (correo público: hsantander@enami.cl)</div></div></div>
+      <div class="fuente"><a href="https://www.estglobal.cl/pdf/CVFernandoVillegasA-Enero2019.pdf" target="_blank">estglobal.cl — CV (correo)</a></div>
+      <div class="kv" style="margin-top:12px">
+        <div><b>ENAMI corporativo:</b> Enrique Mac Iver 459, Santiago · +56 2 2435 5000 · info@enami.cl</div>
+        <div class="fuente"><a href="https://www.direcmin.com/enami-empresa-nacional-de-miner-a/informacion-de-contacto" target="_blank">direcmin.com — contacto ENAMI</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. AUTOMATIZACIÓN -->
+  <div class="section">
+    <h2>5 · Automatización y control (el dato clave)</h2>
+    <div class="card">
+      <div class="kv">
+        <div><b>Fundición actual (vieja):</b> DCS Rockwell PlantPAx, migrado desde Bailey legacy (2015-2018), con HMI, historiador, OPC.</div>
+        <div class="fuente"><a href="https://www.rockwellautomation.com/en-gb/company/news/blogs/copper-smelter-upgrades-its-operations-with-a-modern-dcs.html" target="_blank">rockwellautomation.com — case study FHVL</a></div>
+        <div><b>Nueva fundición:</b> DCS/SCADA/instrumentación <span class="tag tag-verde">SIN PROVEEDOR CONFIRMADO</span></div>
+        <div><b>ENFI y CHEC</b> (China) en negociación técnica/financiera.</div>
+        <div class="fuente"><a href="https://www.enami.cl/Noticias/Pages/VICEPRESIDENTE-EJECUTIVO-Y-MINISTRA-DE-MINER%C3%8DA-DESARROLLARON-INTENSA-AGENDA-EN-CHINA-.aspx" target="_blank">enami.cl — agenda China</a></div>
+        <div><b>Transformación digital activa:</b> licitaciones de sistemas operacionales (migración VB6/ASP→.NET, Modbus RTU/TCP) y monitoreo energético (PI System/OSIsoft, OPC, MES, ERP).</div>
+        <div class="fuente"><a href="https://www.enami.cl/Contratistas-y-Proveedores/B_Licitaciones/Resumen%20Licitaci%C3%B3n%2010012094.pdf" target="_blank">enami.cl — licitación sistemas operacionales</a> · <a href="https://es.scribd.com/document/981676015/10020603-Bases-Tecnicas-ID-y-Gestion-Suministro" target="_blank">scribd — bases gestión energética</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. OPORTUNIDAD CONECTA -->
+  <div class="section">
+    <h2>6 · Oportunidad para CONECTA</h2>
+    <div class="card oportunidad abierta">
+      <h3>① DCS SUPCON ECS-700 como alternativa al PlantPAx <span class="tag tag-verde">VENTANA ABIERTA</span></h3>
+      <p style="font-size:13px;color:var(--muted)">La nueva fundición aún no adjudica su DCS. ENAMI conoce Rockwell (lo tiene en la vieja). SUPCON es la alternativa competitiva — mismo argumento precio/performance que en minería. Entrar ANTES de que la ingeniería escriba la spec.</p>
+    </div>
+    <div class="card oportunidad abierta">
+      <h3>② Entrar por JRI Ingeniería <span class="tag tag-verde">CANAL</span></h3>
+      <p style="font-size:13px;color:var(--muted)">JRI (chilena) hace la prefactibilidad de Refinería + Metales Nobles y asesora lo eléctrico/sismo. Es la puerta para quedar en la spec de instrumentación y control. Mismo patrón que Besalco/FDA en minería.</p>
+    </div>
+    <div class="card oportunidad">
+      <h3>③ Monitorear licitaciones de Proyecta ENAMI SpA</h3>
+      <p style="font-size:13px;color:var(--muted)">EPC, instrumentación y control se licitan en los próximos meses. Construcción arranca oct 2026.</p>
+    </div>
+  </div>
+
+  <footer>CONECTA Ingeniería · Expediente Nueva Paipote · agosto 2026 · Todas las afirmaciones citadas a fuente verificable</footer>
+</div>
+</body>
+</html>
