@@ -52,6 +52,9 @@
   .btn.lk { background: #fff; color: var(--accent); border: 1px solid var(--accent); }
   .btn.lk:hover { background: var(--accent-softer); }
   .btn.copied { background: var(--green); color: #fff; }
+  .badge.exp { background: var(--accent-soft); color: var(--accent); }
+  a.card.ficha-link { text-decoration: none; color: inherit; transition: box-shadow .15s ease, transform .15s ease; }
+  a.card.ficha-link:hover { box-shadow: 0 8px 24px rgba(7,19,36,.08); transform: translateY(-2px); }
   footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
 </style>
 </head>
@@ -76,6 +79,36 @@
   <!-- GREENFIELD -->
   <div class="section-title">Greenfield — proyectos nuevos</div>
   <div class="grid" id="grid-gf"></div>
+
+  <!-- EXPEDIENTES DE PROSPECTO -->
+  <div class="section-title">Expedientes de prospecto — fichas detalladas</div>
+  <div class="grid">
+    <a class="card ficha-link" href="ficha_nueva_paipote.html">
+      <div class="card-head"><h3>Nueva Paipote — ENAMI</h3><span class="badge exp">Megaproyecto</span></div>
+      <div class="region">Fundición Hernán Videla Lira · US$1.700M</div>
+      <div class="meta"><div><b>Clave:</b> DCS sin adjudicar · canal JRI + ENFI</div></div>
+    </a>
+    <a class="card ficha-link" href="ficha_chec.html">
+      <div class="card-head"><h3>CHEC — China Harbour</h3><span class="badge exp">Contratista</span></div>
+      <div class="region">Infraestructura estatal china (CCCC) · agencia en Chile 2026</div>
+      <div class="meta"><div><b>Clave:</b> financiero/constructor, no hace control</div></div>
+    </a>
+    <a class="card ficha-link" href="ficha_enfi.html">
+      <div class="card-head"><h3>ENFI — China ENFI</h3><span class="badge exp">Ingeniería</span></div>
+      <div class="region">Metalurgia china (SKS-BCC) · define la tecnología de Paipote</div>
+      <div class="meta"><div><b>Clave:</b> micro en Chile, todo pasa por JRI/ENAMI</div></div>
+    </a>
+    <a class="card ficha-link" href="ficha_provetek.html">
+      <div class="card-head"><h3>Provetek Ingeniería</h3><span class="badge exp">Proveedor</span></div>
+      <div class="region">Válvulas + instrumentación de proceso · Antofagasta</div>
+      <div class="meta"><div><b>Clave:</b> complementario / posible solapamiento SUPCON</div></div>
+    </a>
+    <a class="card ficha-link" href="ficha_puga_mujica.html">
+      <div class="card-head"><h3>Puga Mujica (PUMA)</h3><span class="badge exp">Canal</span></div>
+      <div class="region">Ingeniería y construcción industrial · 40+ años</div>
+      <div class="meta"><div><b>Clave:</b> canal estratégico eléctrica y control</div></div>
+    </a>
+  </div>
 
   <footer>CONECTA Ingeniería · Prospección minera cobre Chile · agosto 2026</footer>
 </div>
