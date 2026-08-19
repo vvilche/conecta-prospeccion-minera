@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Provetek Ingeniería — Expediente de prospecto | CONECTA</title>
+<style>
+  :root {
+    --bg: #f8fafc; --ink: #071324; --accent: #2563eb;
+    --accent-soft: #dbeafe; --accent-softer: #eff6ff;
+    --green: #059669; --green-soft: #d1fae5;
+    --amber: #d97706; --amber-soft: #fef3c7;
+    --muted: #64748b; --border: #e2e8f0; --radius-lg: 20px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 40px 24px 80px; }
+  .kicker { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); background: var(--accent-softer); padding: 6px 14px; border-radius: 100px; }
+  h1 { font-size: 30px; font-weight: 700; margin-top: 14px; letter-spacing: -.02em; }
+  .sub { color: var(--muted); font-size: 15px; margin-top: 6px; max-width: 680px; }
+
+  .section { margin-top: 30px; }
+  .section h2 { font-size: 19px; font-weight: 700; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--accent-soft); }
+
+  .card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 18px 20px; margin-bottom: 12px; box-shadow: 0 1px 2px rgba(7,19,36,.04); }
+  .card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .kv { font-size: 13.5px; } .kv div { margin-bottom: 4px; } .kv b { color: var(--ink); }
+
+  .fuente { font-size: 11.5px; color: var(--muted); margin-top: 2px; padding-left: 14px; }
+  .fuente a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  .fuente a:hover { text-decoration: underline; }
+  .fuente::before { content: "↳ "; color: var(--accent); }
+
+  .contacto { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; font-size: 13.5px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  .contacto:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .contacto .nombre { font-weight: 700; }
+  .rol { font-size: 12px; color: var(--muted); }
+  .contacto .cta { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; }
+  .chip { font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 100px; text-decoration: none; background: var(--accent-softer); color: var(--accent); white-space: nowrap; }
+  .chip:hover { background: var(--accent-soft); }
+  .chip.mail { background: var(--green-soft); color: var(--green); }
+  .chip.tel { background: var(--amber-soft); color: var(--amber); }
+
+  .tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 100px; margin-right: 6px; }
+  .tag-verde { background: var(--green-soft); color: var(--green); }
+  .tag-amb { background: var(--amber-soft); color: var(--amber); }
+  .tag-azul { background: var(--accent-softer); color: var(--accent); }
+
+  .oportunidad { border-left: 4px solid var(--amber); }
+  .oportunidad.riesgo { border-left: 4px solid #94a3b8; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="kicker">Expediente de prospecto · Nicho válvulas/instrumentación</span>
+    <h1>Provetek Ingeniería Ltda.</h1>
+    <p class="sub">Suministro industrial + ingeniería de control de fluidos (válvulas, actuadores, instrumentación). Empresa chica, base Antofagasta, clientes mineros y de litio.</p>
+  </header>
+
+  <!-- 1. QUIÉN ES -->
+  <div class="section">
+    <h2>1 · Quién es</h2>
+    <div class="card">
+      <div class="kv">
+        <div><b>Provetek Ingeniería Ltda.</b> — suministro de componentes industriales + ingeniería + mantenimiento.</div>
+        <div><b>Fundada:</b> 2012, Antofagasta. <b>Socios:</b> Pablo Andrés Torres Montenegro (99%) y Milenka Rebolledo Sánchez (1%).</div>
+        <div><b>Tamaño:</b> 11-50 empleados · <b>Capital:</b> ~$283M CLP.</div>
+        <div><b>RUT:</b> 76.232.301-K · <b>Dirección:</b> Calle Ovalle 430, Antofagasta · <b>Fono:</b> +56 55 276 3208</div>
+        <div class="fuente"><a href="https://provetek.cl/" target="_blank">provetek.cl</a> · <a href="https://dequienes.cl/diario-oficial/2012/08/23/provetek-ingenieria-limitada-529658" target="_blank">diario oficial (constitución)</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. QUÉ HACE -->
+  <div class="section">
+    <h2>2 · Qué hace (por qué te interesa)</h2>
+    <div class="card">
+      <div class="kv">
+        <div><b>Control de fluidos:</b> válvulas (compuerta, bola, mariposa, diafragma, guillotina, especiales), actuadores neumáticos/eléctricos/hidráulicos, instrumentación de proceso, flujómetros.</div>
+        <div><b>Ingeniería:</b> cálculo de válvulas de control, calibración, integración de equipos.</div>
+        <div><b>Mantenimiento:</b> reparación de válvulas y transporte neumático de sólidos.</div>
+        <div><b>Sectores:</b> minería (metálica/no metálica), energía/termoeléctricas, ácido sulfúrico, celulosa, cemento, pesca, tratamiento de aguas.</div>
+        <div class="fuente"><a href="https://provetek.cl/" target="_blank">provetek.cl — servicios</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. PROYECTOS Y CLIENTES -->
+  <div class="section">
+    <h2>3 · Proyectos y clientes (data limitada)</h2>
+    <div class="card">
+      <div class="kv">
+        <div><b>Reemplazo de torres de enfriamiento Oxinor</b> — Air Liquide Chile, norte (diseño/mantención/construcción).</div>
+        <div><b>Clientes mencionados:</b> SQM Litio, Oxy, Calidra Cono Sur, Soltex Chile.</div>
+        <div class="fuente"><a href="https://clusterdeenergia.cl/wp-content/uploads/2025/01/Red-Energia-Catalogo.pdf" target="_blank">catálogo Cluster de Energía</a></div>
+        <div style="margin-top:6px;color:var(--muted)">No hay registro público de proyectos mineros específicos (Escondida, Chuquicamata, etc.) confirmados — empresa chica con poca huella pública.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. TOMADORES DE DECISIÓN -->
+  <div class="section">
+    <h2>4 · Tomadores de decisión (contacto verificado del sitio oficial)</h2>
+    <div class="card">
+      <div class="contacto">
+        <div><span class="nombre">Pablo Torres M.</span><div class="rol">Socio controlador (99%) — el dueño, decide todo</div></div>
+        <div class="cta"><a class="chip tel" href="tel:+56974323414">+56 9 7432 3414</a><a class="chip mail" href="mailto:pablo.torres@provetek.cl">pablo.torres@</a></div>
+      </div>
+      <div class="contacto">
+        <div><span class="nombre">Alexis Rebolledo S.</span><div class="rol">Contacto comercial/técnico</div></div>
+        <div class="cta"><a class="chip tel" href="tel:+56944944873">+56 9 4494 4873</a><a class="chip mail" href="mailto:alexis.rebolledo@provetek.cl">alexis.rebolledo@</a></div>
+      </div>
+      <div class="contacto">
+        <div><span class="nombre">Pablo Godoy Tapia</span><div class="rol">Marketing y Ventas</div></div>
+        <div class="cta"><a class="chip" href="https://cl.linkedin.com/in/pablo-godoy-tapia-511652135" target="_blank">LinkedIn ↗</a></div>
+      </div>
+    </div>
+    <div class="fuente" style="margin-top:6px"><a href="https://provetek.cl/contacto/" target="_blank">provetek.cl/contacto — teléfonos y correos oficiales</a></div>
+  </div>
+
+  <!-- 5. ÁNGULO CONECTA -->
+  <div class="section">
+    <h2>5 · Ángulo para CONECTA</h2>
+    <div class="card oportunidad">
+      <h3>① Complementario más que competidor <span class="tag tag-verde">ALIANZA</span></h3>
+      <p style="font-size:13px;color:var(--muted)">Provetek hace válvulas/actuadores/instrumentación de proceso. CONECTA hace SCADA/PMU/RTU/IEC 61850. En una planta completa, pueden ser el subcontratista de instrumentación de campo.</p>
+    </div>
+    <div class="card oportunidad riesgo">
+      <h3>② Ojo: SUPCON CVP2000 compite en válvulas <span class="tag tag-amb">SOLAPAMIENTO</span></h3>
+      <p style="font-size:13px;color:var(--muted)">Provetek vende válvulas de otras marcas; CONECTA representa SUPCON (línea CVP2000 de válvulas inteligentes). Hay solapamiento en el nicho de válvulas, pero no en control/SCADA.</p>
+    </div>
+    <div class="card oportunidad">
+      <h3>③ Contacto directo y rápido</h3>
+      <p style="font-size:13px;color:var(--muted)">Es empresa chica: hablar con Pablo Torres (dueño) es factible. Su fuerte es el norte (Antofagasta) con clientes mineros/litio (SQM, Oxy), la misma zona de CONECTA.</p>
+    </div>
+  </div>
+
+  <footer>CONECTA Ingeniería · Expediente Provetek · agosto 2026 · Contactos verificados del sitio oficial provetek.cl</footer>
+</div>
+</body>
+</html>
